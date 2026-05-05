@@ -1,1 +1,10 @@
 /.idea/.idea.BicycleShop/.idea/.gitignore
+.idea/
+*.sln.iml
+*.ReSharper
+bin/
+obj/
+*.user
+.DS_Store
+Thumbs.db
+appsettings.Development.json

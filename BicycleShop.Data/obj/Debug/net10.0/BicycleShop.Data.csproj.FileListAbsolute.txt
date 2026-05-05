@@ -1,0 +1,16 @@
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\bin\Debug\net10.0\BicycleShop.Data.deps.json
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\bin\Debug\net10.0\BicycleShop.Data.dll
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\bin\Debug\net10.0\BicycleShop.Data.pdb
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\bin\Debug\net10.0\BicycleShop.Domain.dll
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\bin\Debug\net10.0\BicycleShop.Domain.pdb
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleShop.Data.csproj.AssemblyReference.cache
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleShop.Data.AssemblyInfoInputs.cache
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleShop.Data.AssemblyInfo.cs
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleShop.Data.sourcelink.json
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleS.1C79FAE8.Up2Date
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleShop.Data.dll
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\refint\BicycleShop.Data.dll
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\BicycleShop.Data.pdb
+C:\Users\Tyomich\Desktop\BicycleShop\BicycleShop.Data\obj\Debug\net10.0\ref\BicycleShop.Data.dll

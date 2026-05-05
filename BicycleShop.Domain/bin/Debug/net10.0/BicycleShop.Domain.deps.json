@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BicycleShop.Domain/1.0.0": {
+        "runtime": {
+          "BicycleShop.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BicycleShop.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

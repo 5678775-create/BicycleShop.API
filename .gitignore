@@ -1,10 +1,22 @@
 /.idea/.idea.BicycleShop/.idea/.gitignore
+# =========================
+# JetBrains Rider
+# =========================
 .idea/
 *.sln.iml
 *.ReSharper
+
+# =========================
+# .NET / C#
+# =========================
 bin/
 obj/
 *.user
+
+# =========================
+# Mac / Windows system files
+# =========================
 .DS_Store
 Thumbs.db
+
 appsettings.Development.json

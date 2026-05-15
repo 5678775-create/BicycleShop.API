@@ -98,11 +98,7 @@ public class InventoryService : IInventoryService
             inventory.QuantityAvailable -= reservation.Quantity;
             inventory.QuantityReserved -= reservation.Quantity;
             inventory.UpdatedAt = DateTime.UtcNow;
-
-            if (inventory.Product.StockQuantity >= reservation.Quantity)
-            {
-                inventory.Product.StockQuantity -= reservation.Quantity;
-            }
+            inventory.Product.StockQuantity = inventory.QuantityAvailable;
 
             reservation.IsCommitted = true;
             reservation.IsReleased = true;
@@ -143,6 +139,7 @@ public class InventoryService : IInventoryService
                 UpdatedAt = DateTime.UtcNow
             };
 
+            product.StockQuantity = quantityAvailable;
             await _context.Inventories.AddAsync(inventory);
         }
         else
@@ -155,6 +152,7 @@ public class InventoryService : IInventoryService
 
             inventory.QuantityAvailable = quantityAvailable;
             inventory.UpdatedAt = DateTime.UtcNow;
+            inventory.Product.StockQuantity = quantityAvailable;
         }
 
         await _context.SaveChangesAsync();

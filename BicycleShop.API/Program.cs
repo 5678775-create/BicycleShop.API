@@ -1,3 +1,4 @@
+using BicycleShop.API.Middleware;
 using BicycleShop.Application.Services;
 using BicycleShop.Application.Validators;
 using BicycleShop.Data.Context;
@@ -16,6 +17,11 @@ builder.Services.AddDbContext<BicycleShopDbContext>(opt =>
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICatalogService, CatalogService>();
+builder.Services.AddScoped<IPricingService, PricingService>();
+builder.Services.AddScoped<IOrderWorkflowService, OrderWorkflowService>();
+builder.Services.AddScoped<IInventoryService, InventoryService>();
+builder.Services.AddScoped<IPromotionService, PromotionService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 
 // Контролери та Валідація
 builder.Services.AddControllers();
@@ -34,5 +40,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseMiddleware<ApiExceptionHandlingMiddleware>();
 app.MapControllers();
 app.Run();

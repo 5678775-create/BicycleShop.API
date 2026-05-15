@@ -9,4 +9,7 @@ public class Product : BaseEntity
     
     public Guid CatalogId { get; set; }
     public Catalog Catalog { get; set; } = null!;
+    public Inventory? Inventory { get; set; }
+    public ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
+    public ICollection<InventoryReservation> InventoryReservations { get; set; } = new List<InventoryReservation>();
 }
